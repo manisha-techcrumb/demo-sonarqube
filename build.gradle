@@ -24,7 +24,7 @@ sonarqube {
         property "sonar.projectKey", "demo-sonarqube"
         property "sonar.projectName", "Demo SonarQube"
         property "sonar.host.url", System.getenv("SONAR_HOST_URL")
-        property "sonar.login", System.getenv("SONAR_TOKEN")
+        property "sonar.token", System.getenv("SONAR_TOKEN")
     }
 }
 
